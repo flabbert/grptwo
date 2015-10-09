@@ -1,3 +1,17 @@
 ﻿body
 {
+    background-color:red;
+}
+.navigation{
+    border:solid;
+    border-width:1px;
+    background-color:white;
+}
+.links
+{
+    color:grey;
+}
+.links:hover
+{
+    color:white;
 }
