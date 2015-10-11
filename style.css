@@ -3,16 +3,22 @@
     background-color:red;
 }
 .navigation{
+    width: 800px;
+    height:45px;
     border:solid;
     border-width:1px;
     background-color:white;
 }
 .links
 {
-    background-color:black;
-    color:grey;
+    height:45px;
+    width:80px;
+    text-align:center;
+    line-height:45px;
+    float:left;
+    background-color:#aaaaaa;
 }
 .links:hover
 {
-    color:white;
+    background-color:#ffffff;
 }
