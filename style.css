@@ -1,4 +1,4 @@
-﻿body
+?body
 {
     background-color:white;
 }
@@ -7,14 +7,14 @@ html {
 }
 
 .nav{
-    padding-top: 2px;
+    padding-top: 6px;
     background: black;
     position: fixed;
     width: 100%;
 }
 .nav a {
   color: #5a5a5a;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
