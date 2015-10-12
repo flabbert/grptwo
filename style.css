@@ -6,7 +6,8 @@ html {
     overflow-y: scroll; 
 }
 
-.nav{
+.nav {
+    z-index:999;
     padding-top: 6px;
     background: black;
     position: fixed;
