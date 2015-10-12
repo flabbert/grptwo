@@ -47,6 +47,10 @@ html {
   color: #fff;
 }
 
+.info .container{
+    padding-top: 100px;
+
+}
 .info p {
     font-size: 14px;
     color: black;
