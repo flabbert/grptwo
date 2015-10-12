@@ -1,29 +1,77 @@
-﻿body
+?body
 {
-    background-color:red;
-}
-.navigation{
-    width: 800px;
-    height:45px;
-    border:solid;
-    border-width:1px;
     background-color:white;
 }
-.links
-{
-    height:45px;
-    width:80px;
-    color:#000000;
-    text-align:center;
-    line-height:45px;
-    float:left;
-    background-color:#aaaaaa;
+html {
+    overflow-y: scroll; 
 }
-.links:hover
-{
-    background-color:#ffffff;
+
+.nav{
+    padding-top: 6px;
+    background: black;
+    position: fixed;
+    width: 100%;
 }
-.links:visited
-{
-    color:#000000;
+.nav a {
+  color: #5a5a5a;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
 }
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('http://apod.nasa.gov/apod/image/1510/PerseusCloud_hilborn2048.jpg');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.info .container{
+    padding-top: 100px;
+
+}
+.info p {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+.info li {
+    font-size: 35px;
+    color: lightseagreen;
+    text-transform: uppercase;
+}
+
+
+.lorem p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer p {
+  font-size: 20px;
+  color: darkred;
+}
+
+
