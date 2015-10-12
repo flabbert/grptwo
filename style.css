@@ -13,6 +13,7 @@
 {
     height:45px;
     width:80px;
+    color:#000000;
     text-align:center;
     line-height:45px;
     float:left;
@@ -21,4 +22,8 @@
 .links:hover
 {
     background-color:#ffffff;
+}
+.links:visited
+{
+    color:#000000;
 }
