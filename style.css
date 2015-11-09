@@ -74,5 +74,28 @@ html {
   font-size: 20px;
   color: darkred;
 }
+@media screen and (max-width : 980px) {
+    #left-content {
+        width:50%;
+    }
+    #right-content {
+        width:46%;
+    }
 
+    #wrapper {
+        width:100%;
+    }
+
+        #top-image {
+        background-size: 100%;
+        width: 100%;
+        padding-top: 54%;
+        height: 0;
+    }
+
+}
+
+@media screen and (max-width : 760px){
+
+    /*** Main Menu Responsive ***/
 
